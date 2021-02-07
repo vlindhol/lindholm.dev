@@ -83,11 +83,11 @@ export default function Home() {
           </div>
         </div>
       </div>
+        {/*
       <div className="container mx-auto px-8 sm:px-0">
         <section className="mt-32" id="portfolio">
           
         </section>
-        {/*
         <section className="mt-32">
           <h1 className="mb-6">Authors</h1>
           <div className="flex flex-col sm:flex-row mb-4">
@@ -108,8 +108,9 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>*/}
+        </section>
       </div>
+        */}
     </div>
   )
 }
