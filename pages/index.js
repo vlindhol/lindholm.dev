@@ -76,9 +76,9 @@ export default function Home() {
             <span>Full-stack software developer</span>
           </div>
           <div className="mt-8 mx-auto flex flex-col sm:flex-row sm:justify-around text-center space-y-2 sm:space-y-0 sm:space-x-1">
-            <Button url="https://patreon.com"><HashnodeIcon /><span>Blog</span></Button>
-            <Button url="https://patreon.com"><GithubIcon /><span>Github</span></Button>
-            <Button url="https://patreon.com"><TwitterIcon /><span>Twitter</span></Button>
+            <Button url="https://blog.lindholm.dev"><HashnodeIcon /><span>Blog</span></Button>
+            <Button url="https://github.com/vlindhol"><GithubIcon /><span>Github</span></Button>
+            <Button url="https://twitter.com/VilleVLindholm"><TwitterIcon /><span>Twitter</span></Button>
             {/*<Button url="https://patreon.com"><PatreonIcon /><span>Patreon</span></Button>*/}
           </div>
         </div>
