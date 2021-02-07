@@ -49,22 +49,21 @@ export default function Home() {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Ville Lindholm, software engineer</title>
-        <meta name="keywords" content="quickwords, productivity, application, cross-platform, macos, app, textexpander" />
-        <meta name="description" content="Quickwords is a productivity app, to get on with your work quicker" />
+        <meta name="keywords" content="ville, lindholm, developer, full-stack, software engineer, blog, coding, coder, react, elixir, typescript" />
+        <meta name="description" content="The personal webpage of Ville Lindholm, software developer" />
         <meta name="robots" content="INDEX,FOLLOW"/>
         <meta name="Author" content="Ville Lindholm" />
-        <link rel="icon" href="/favicon.a950e28e.png" />
+        <link rel="icon" href="/hatchful-export/favicon.png" />
         <meta name="theme-color" content="#24a1de" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />
-        <meta property="og:title" content="Quickwords" />
-        <meta property="og:site_name" content="Quickwords" />
-        <meta property="og:description" content="Quickwords is a productivity app, to get on with your work quicker" />
-        <meta property="og:image" content="https://quickwords.co/assets/icon.png" />
+        <meta property="og:title" content="Ville Lindholm, software engineer" />
+        <meta property="og:site_name" content="lindholm.dev" />
+        <meta property="og:description" content="The personal webpage of Ville Lindholm, software developer" />
+        <meta property="og:image" content="https://lindholm.dev/hatchful-export/logo.png" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:creator" content="@quickwordsapp" />
-        <meta name="twitter:title" content="Quickwords" />
-        <meta name="twitter:description" content="Quickwords is a productivity app, to get on with your work quicker" />
-        <meta name="twitter:image" content="https://quickwords.co/assets/icon.png" />
+        <meta name="twitter:creator" content="@VilleVLindholm" />
+        <meta name="twitter:title" content="lindholm.dev" />
+        <meta name="twitter:description" content="The personal webpage of Ville Lindholm, software developer" />
+        <meta name="twitter:image" content="https://lindholm.dev/hatchful-export/logo.png" />
       </Head>
       <div className="flex items-center header border-t-5 border-blue bg-grey h-screen text-black bg-cover" style={{
         backgroundImage: `url(${bg})`,
@@ -76,7 +75,7 @@ export default function Home() {
             <span>Full-stack software developer</span>
           </div>
           <div className="mt-8 mx-auto flex flex-col sm:flex-row sm:justify-around text-center space-y-2 sm:space-y-0 sm:space-x-1">
-            <Button url="https://blog.lindholm.dev"><HashnodeIcon /><span>Blog</span></Button>
+            {/*<Button url="https://blog.lindholm.dev"><HashnodeIcon /><span>Blog</span></Button>*/}
             <Button url="https://github.com/vlindhol"><GithubIcon /><span>Github</span></Button>
             <Button url="https://twitter.com/VilleVLindholm"><TwitterIcon /><span>Twitter</span></Button>
             {/*<Button url="https://patreon.com"><PatreonIcon /><span>Patreon</span></Button>*/}
