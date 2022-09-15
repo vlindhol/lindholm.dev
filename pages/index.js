@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import bg from '../public/bg.svg';
-import logo from '../public/hatchful-export/logo_transparent.png';
 
 const Button = ({ url, children }) =>
   <a href={url}>
@@ -66,10 +64,10 @@ export default function Home() {
         <meta name="twitter:image" content="https://lindholm.dev/hatchful-export/logo.png" />
       </Head>
       <div className="flex items-center header border-t-5 border-blue bg-grey h-screen text-black bg-cover" style={{
-        backgroundImage: `url(${bg})`,
+        backgroundImage: `url("/bg.svg")`,
       }}>
         <div className="container mx-auto px-8 sm:px-0 max-w-sm">
-          <div className="flex mx-auto"><img src={logo} alt="lindholm.dev logo" /></div>
+          <div className="flex mx-auto"><img src="/hatchful-export/logo_transparent.png" alt="lindholm.dev logo" /></div>
           <div className="text-center mt-8 flex flex-col">
             <h1 className="font-serif text-5xl">Ville Lindholm</h1>
             <span>Full-stack software developer</span>
