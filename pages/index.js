@@ -68,7 +68,7 @@ export default function Home() {
         backgroundImage: `url("/bg.svg")`,
       }}>
         <div className="container mx-auto px-8 sm:px-0 max-w-sm">
-          <div className="flex mx-auto"><Image src="/hatchful-export/logo_transparent.png" alt="lindholm.dev logo" /></div>
+          <div className="flex mx-auto"><Image src="/hatchful-export/logo_transparent.png" alt="lindholm.dev logo" width={1200} height={1200} /></div>
           <div className="text-center mt-8 flex flex-col">
             <h1 className="font-serif text-5xl">Ville Lindholm</h1>
             <span>Full-stack software developer</span>
